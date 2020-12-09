@@ -64,6 +64,10 @@ blockquote {
   padding-bottom: 20px;
 }
 
+ol, ul {
+  list-style: none;
+}
+
 .logo {
   position: fixed;
   top: 50px;
