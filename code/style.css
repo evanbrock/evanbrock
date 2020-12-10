@@ -134,6 +134,10 @@ blockquote {
   left: 80px;
 }
 
+.logo a:hover {
+  border-bottom: none !important;
+}
+
 nav {
   padding-left: 290px;
 }
@@ -532,6 +536,7 @@ h4 {
   .work-list li a {
     font-size: 72px;
     line-height: 100px;
+    letter-spacing: 3px
   }
 
   .debris li {
@@ -745,16 +750,22 @@ h4 {
   .work-list li a {
     font-size: 32px;
     line-height: 48px;
+    -webkit-text-stroke: .75px #ecece8;
+    letter-spacing: 4px
   }
 
   .debris li {
     font-size: 32px;
     line-height: 48px;
+    -webkit-text-stroke: .75px #ecece8;
+    letter-spacing: 4px
   }
 
   .project-title li {
     font-size: 32px;
     line-height: 48px;
+    -webkit-text-stroke: .75px #ecece8;
+    letter-spacing: 4px
   }
 
   .details {
@@ -841,16 +852,22 @@ h4 {
   .work-list li a {
     font-size: 24px;
     line-height: 36px;
+    -webkit-text-stroke: .75px #ecece8;
+    letter-spacing: 6px
   }
 
   .debris li {
     font-size: 24px;
     line-height: 36px;
+    -webkit-text-stroke: .75px #ecece8;
+    letter-spacing: 6px
   }
 
   .project-title li {
     font-size: 24px;
     line-height: 36px;
+    -webkit-text-stroke: .75px #ecece8;
+    letter-spacing: 6px
   }
 
   .details {
