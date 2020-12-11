@@ -18,6 +18,7 @@
 		(2006 → 2020)">
 		<meta property="og:url" content="https://evanbrock.com">
 		<meta name="twitter:card" content="https://evanbrock.com/images/twitter-image.jpg">
+		<script src="code/lottie.js"></script>
 	</head>
 	<body>
 		<script src="../code/superhi.js"></script>
@@ -31,9 +32,22 @@
 		  </nav>
 		</header>
 		
-		<div class="logo">
-		  <a href="https://evanbrock.com"><img src="images/e-b.svg"></a>
-		</div>
+		<a href="https:evanbrock.com"><div id="anim-logo"></div></a>
+
+		<script>
+
+			var animData = {
+				wrapper: document.getElementById('anim-logo'),
+				animType: 'svg',
+				loop: false,
+				prerender: true,
+				autoplay: true,
+				path: 'code/e-b.json'
+		
+			};
+			var anim = bodymovin.loadAnimation(animData);
+			window.onresize = anim.resize.bind(anim);
+		</script>
 		
 		<div class="moon">
 		  <a href="https://en.wikipedia.org/wiki/Moon" target="_blank"><img src="../images/moon.svg"></a>

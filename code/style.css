@@ -160,15 +160,21 @@ blockquote {
   padding-bottom: 20px;
 }
 
-#logo {
-  max-width: 43px;
+.logo {
   position: fixed;
   top: 50px;
   left: 80px;
 }
 
-#logo a:hover {
+.logo a:hover {
   border-bottom: none !important;
+}
+
+#anim-logo {
+  position: fixed;
+  top: 50px;
+  left: 80px;
+  max-width: 43px;
 }
 
 nav {
