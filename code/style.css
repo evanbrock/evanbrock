@@ -160,13 +160,14 @@ blockquote {
   padding-bottom: 20px;
 }
 
-.logo {
+#logo {
+  max-width: 43px;
   position: fixed;
   top: 50px;
   left: 80px;
 }
 
-.logo a:hover {
+#logo a:hover {
   border-bottom: none !important;
 }
 
