@@ -181,7 +181,7 @@ nav li {
 }
 
 .selected {
-  padding-bottom: -1px;
+  display: inline-block;
   border-bottom: 1px solid #ecece8;
 }
 
