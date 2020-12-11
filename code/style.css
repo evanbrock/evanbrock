@@ -148,9 +148,11 @@ a:hover img {
   transition: width .3s;
 }
 
-.cool-link:hover::after {
-  width: 100%;
-  //transition: width .3s;
+@media(hover: hover) and (pointer: fine) {
+  .cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
 }
 
 blockquote {
