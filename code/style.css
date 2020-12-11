@@ -171,9 +171,6 @@ blockquote {
 }
 
 #anim-logo {
-  position: fixed;
-  top: 50px;
-  left: 80px;
   max-width: 43px;
 }
 
