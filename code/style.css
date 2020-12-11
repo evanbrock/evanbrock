@@ -66,35 +66,45 @@ input, textarea, select {
 
 @font-face {
   font-family: neuemontreal-regular;
-  src: url(../fonts/neuemontreal-regular.woff2);
+  src: url('../fonts/neuemontreal-regular.woff2') format('woff2'),
+       url('../fonts/neuemontreal-regular.woff') format('woff');
 }
 
 @font-face {
   font-family: neuemontreal-italic;
-  src: url(../fonts/neuemontreal-italic.woff2);
+  src: url('../fonts/neuemontreal-italic.woff2') format('woff2'),
+       url('../fonts/neuemontreal-italic.woff') format('woff');
 }
 
 @font-face {
   font-family: neuemontreal-bold;
-  src: url(../fonts/neuemontreal-bold.woff2);
+  src: url('../fonts/neuemontreal-bold.woff2') format('woff2'),
+       url('../fonts/neuemontreal-bold.woff') format('woff');
 }
 
 @font-face {
   font-family: monumentextended-ultralight;
-  src: url(../fonts/monumentextended-ultralight.woff2);
+  src: url('../fonts/monumentextended-ultralight.woff2') format('woff2'),
+       url('../fonts/monumentextended-ultralight.woff') format('woff');
 }
 
 @font-face {
   font-family: monumentextended-regular;
-  src: url(../fonts/monumentextended-regular.woff2);
+  src: url('../fonts/monumentextended-regular.woff2') format('woff2'),
+       url('../fonts/monumentextended-regular.woff') format('woff');
 }
 
 @font-face {
   font-family: monumentextended-bold;
-  src: url(../fonts/monumentextended-bold.woff2);
+  src: url('../fonts/monumentextended-bold.woff2') format('woff2'),
+       url('../fonts/monumentextended-bold.woff') format('woff');
 }
 
 /* OVERALL STYLES */
+
+body, html {
+  cursor: url(../images/cursor-hover.png) 25 15, auto;
+}
 
 body {
   background-color: #161515;
@@ -116,11 +126,31 @@ a {
 }
 
 a:hover {
-  border-bottom: 1px solid #ecece8;
+  cursor: url(../images/cursor-hover.png) 25 15, auto;
 }
 
 a:hover img {
   border-bottom: none;
+}
+
+.cool-link {
+  display: inline-block;
+  color:  #ecece8;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background:  #ecece8;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  //transition: width .3s;
 }
 
 blockquote {
