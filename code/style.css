@@ -106,6 +106,11 @@ body, html {
   cursor: url(../images/cursor-hover.png) 25 15, auto;
 }
 
+a:hover {
+  cursor: url(../images/cursor.png) 25 15, auto;
+  height: 100%;
+}
+
 body {
   background-color: #161515;
   color: #ecece8;
