@@ -55,10 +55,23 @@
 		<section class="name">
 		  <img src="images/evanbrock.svg" class="hero">
 		</section>
+
+		<section class="scroll"><div id="anim-scroll"></div></section>
+
+		<script>
+
+			var animData = {
+				wrapper: document.getElementById('anim-scroll'),
+				animType: 'svg',
+				loop: false,
+				prerender: true,
+				autoplay: true,
+				path: 'code/scroll.json'
 		
-		<section class="scroll">
-			<img src="images/scroll.svg">
-		</section>
+			};
+			var anim = bodymovin.loadAnimation(animData);
+			window.onresize = anim.resize.bind(anim);
+		</script>
 		
 		<section class="info">
 			<h3>

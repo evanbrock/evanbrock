@@ -282,6 +282,10 @@ footer {
   margin: 0 -30px !important;
 }
 
+#anim-scroll {
+  max-width: 29px;
+}
+
 .info {
   padding-bottom: 220px;
   width: 80%;
@@ -602,6 +606,10 @@ h4 {
 
 @media (max-width: 1190px) {
   .scroll {
+    display: none;
+  }
+
+  #anim-scroll {
     display: none;
   }
 
