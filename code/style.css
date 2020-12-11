@@ -173,7 +173,7 @@ nav {
 }
 
 nav a {
-  display: inline;
+  display: inline-block;
 }
 
 nav li {
@@ -181,7 +181,6 @@ nav li {
 }
 
 .selected {
-  padding-bottom: 1px;
   border-bottom: 1px solid #ecece8;
 }
 
