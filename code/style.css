@@ -167,7 +167,7 @@ blockquote {
 
 .logo {
   position: fixed;
-  top: 50px;
+  top: 53px;
   left: 80px;
 }
 
@@ -225,6 +225,10 @@ footer {
   justify-content: space-between;
 }
 
+footer img {
+  align-self: flex-end;
+}
+
 .top a {
   font-weight: bold;
   display: block;
@@ -233,6 +237,7 @@ footer {
 
 .top a:hover {
   border-bottom: none;
+  padding-bottom: 30px;
 }
 
 .top img {
@@ -682,7 +687,11 @@ h4 {
 
   .work-list li a {
     font-size: 48px;
-    line-height: 70px;
+    line-height: 48px;
+  }
+
+  .work-list li {
+    margin-bottom: 40px;
   }
 
   .debris li {
