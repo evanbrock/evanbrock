@@ -878,11 +878,6 @@ h4 {
 }
 
 @media (max-width: 620px) {
-  body {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
   nav {
     padding-left: 90px;
   }
