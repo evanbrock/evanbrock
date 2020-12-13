@@ -587,14 +587,12 @@ h4 {
 .prev {
   flex: 40%;
   padding: 40px 40px;
-  margin-right: 40px;
   border: 1px solid #ecece8;
 }
 
 .next {
   flex: 40%;
   padding: 40px 40px;
-  margin-left: 40px;
   border: 1px solid #ecece8;
 }
 
