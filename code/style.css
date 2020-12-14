@@ -352,7 +352,7 @@ h4 {
 .work-list li a:hover {
   color: #ecece8;
   border-bottom: none;
-  transition: color 0.3s ease;
+  transition: color 0s ease;
 }
 
 /* SELECTED WORK CODE */
@@ -598,15 +598,31 @@ h4 {
 }
 
 .prev {
-  flex: 40%;
+  display: block;
   padding: 40px 40px;
+  box-sizing: border-box;
   border: 1px solid #ecece8;
+  transition: all 0.3s ease;
+}
+
+.prev:hover {
+  padding: 30px 30px 30px 31px;
+  box-sizing: border-box;
+  border: 10px solid #ecece8;
 }
 
 .next {
-  flex: 40%;
+  display: block;
   padding: 40px 40px;
+  box-sizing: border-box;
   border: 1px solid #ecece8;
+  transition: all 0.3s ease;
+}
+
+.next:hover {
+  padding: 30px 31px 30px 30px;
+  box-sizing: border-box;
+  border: 10px solid #ecece8;
 }
 
 /* MEDIA QUERIES */
