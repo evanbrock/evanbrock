@@ -104,11 +104,7 @@ input, textarea, select {
 
 body, html {
   cursor: url(../images/cursor-hover.png) 25 15, auto;
-}
-
-a:hover {
-  cursor: url(../images/cursor.png) 25 15, auto;
-  height: 100%;
+  transition: all 0.5s ease;
 }
 
 body {
@@ -133,10 +129,6 @@ header {
 a {
   color: #ecece8;
   text-decoration: none;
-}
-
-a:hover {
-  cursor: url(../images/cursor-hover.png) 25 15, auto;
 }
 
 a:hover img {
@@ -430,6 +422,32 @@ h4 {
 }
 
 /* ASSORTED DEBRIS CODE */
+
+.content {
+	height: 0px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	isolation: isolate;
+}
+
+.content__img {
+	max-width: var(--img-maxwidth);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	will-change: transform;
+	filter: var(--filter-img);
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
 
 .debris {
   padding-top: 100px;
