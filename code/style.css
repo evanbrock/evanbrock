@@ -388,7 +388,14 @@ h4 {
 }
 
 .project img {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  outline: 0px solid rgba(91, 114, 226, 0);
+  transition: all 0.3s ease;
+}
+
+.project img:hover {
+  outline: 10px solid rgba(91, 114, 226, 1);
+  outline-offset: -10px;
 }
 
 .project h4 {
@@ -397,10 +404,6 @@ h4 {
 
 .archive a:hover {
   border-bottom: none;
-}
-
-.project p a:hover {
-  border-bottom: 1px solid #ecece8;
 }
 
 .row {
