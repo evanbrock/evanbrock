@@ -125,6 +125,11 @@ body {
   margin-bottom: 140px;
 }
 
+header {
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
 a {
   color: #ecece8;
   text-decoration: none;
@@ -223,21 +228,27 @@ nav li {
 footer {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
-.top a {
+footer a {
   font-weight: bold;
-  display: block;
   padding-bottom: 30px;
 }
 
-.top a:hover {
-  border-bottom: none;
+footer a img {
+  opacity: 0;
+  display: block;
+  margin: 20px auto 0;
+  position: relative;
+  top: 10px;
+  transition: all 0.3s;
 }
 
-.top img {
-  display: block;
-  margin: auto;
+footer a:hover img {
+  opacity: 1;
+  top: -10px;
 }
 
 .video {
@@ -335,11 +346,13 @@ h4 {
   text-transform: uppercase;
   color: #161515;
   -webkit-text-stroke: 1px #ecece8;
+  transition: color 1.0s ease;
 }
 
 .work-list li a:hover {
   color: #ecece8;
   border-bottom: none;
+  transition: color 0.3s ease;
 }
 
 /* SELECTED WORK CODE */
