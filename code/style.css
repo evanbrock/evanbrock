@@ -424,12 +424,12 @@ h4 {
 /* ASSORTED DEBRIS CODE */
 
 .content {
-	height: 0px;
+  height: 0px;
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	isolation: isolate;
+  isolation: isolate;
 }
 
 .content__img {
