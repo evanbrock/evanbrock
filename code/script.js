@@ -68,6 +68,9 @@ document.addEventListener("mousemove", function(event) {
   const angleX = (targetY - y) / 25
   const angleY = (targetX - x) / 25
 
-  target.style.transform = "rotateX(" + angleX + "deg) rotateY(" + angleY + "deg)"
+  const cappedAngleX = Math.max(angleX, -45)
+  const cappedAngleY = Math.max(angleY)
+
+  target.style.transform = "rotateX(" + cappedAngleX + "deg) rotateY(" + cappedAngleY + "deg)"
 
 })
