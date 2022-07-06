@@ -576,6 +576,11 @@ h4 {
 
 /* PROJECT CODE */
 
+.project-wrapper {
+  max-width:1400px;
+  margin: 0 auto;
+}
+
 .project-title {
   padding-top: 100px;
   padding-bottom: 160px;
