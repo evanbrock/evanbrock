@@ -52,6 +52,8 @@ jQuery(function( $ ) {
 
 /* HERO HOVER STATE */
 
+
+
 document.addEventListener("mousemove", function(event) {
 
   const x = event.pageX
