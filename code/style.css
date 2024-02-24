@@ -388,7 +388,7 @@ h4 {
   padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -420,7 +420,6 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0 auto;
 }
 
 .column-left {
