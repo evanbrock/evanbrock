@@ -288,7 +288,7 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   color: #161515;
-  -webkit-text-stroke: 1px #ecece8;
+  -webkit-text-stroke: .25px #ecece8;
 }
 
 .work-list li a:hover {
