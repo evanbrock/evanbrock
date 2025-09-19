@@ -288,7 +288,7 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   color: #161515;
-  -webkit-text-stroke: .25px #ecece8;
+  -webkit-text-stroke: 1px #ecece8;
 }
 
 .work-list li a:hover {
@@ -391,7 +391,7 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   color: #161515;
-  -webkit-text-stroke: .25px #ecece8;
+  -webkit-text-stroke: 1px #ecece8;
 }
 
 /* INFO CODE */
@@ -496,7 +496,7 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   color: #161515;
-  -webkit-text-stroke: .25px #ecece8;
+  -webkit-text-stroke: 1px #ecece8;
 }
 
 .project-details {
@@ -750,21 +750,21 @@ h4 {
   .work-list li a {
     font-size: 32px;
     line-height: 48px;
-    -webkit-text-stroke: .25px #ecece8;
+    -webkit-text-stroke: .75px #ecece8;
     letter-spacing: 4px
   }
 
   .debris li {
     font-size: 32px;
     line-height: 48px;
-    -webkit-text-stroke: .25px #ecece8;
+    -webkit-text-stroke: .75px #ecece8;
     letter-spacing: 4px
   }
 
   .project-title li {
     font-size: 32px;
     line-height: 48px;
-    -webkit-text-stroke: .25px #ecece8;
+    -webkit-text-stroke: .75px #ecece8;
     letter-spacing: 4px
   }
 
@@ -852,21 +852,21 @@ h4 {
   .work-list li a {
     font-size: 24px;
     line-height: 36px;
-    -webkit-text-stroke: .25px #ecece8;
+    -webkit-text-stroke: .75px #ecece8;
     letter-spacing: 6px
   }
 
   .debris li {
     font-size: 24px;
     line-height: 36px;
-    -webkit-text-stroke: .25px #ecece8;
+    -webkit-text-stroke: .75px #ecece8;
     letter-spacing: 6px
   }
 
   .project-title li {
     font-size: 24px;
     line-height: 36px;
-    -webkit-text-stroke: .25px #ecece8;
+    -webkit-text-stroke: .75px #ecece8;
     letter-spacing: 6px
   }
 
